@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .cart {
+    width: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 6px solid #ccc;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .product-image {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .quantity-btn {
+    font-size: 16px;
+    padding: 2px 8px;
+    cursor: pointer;
+  }
+  
+  .delete-btn,
+  .like-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like-btn {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .like-btn.liked {
+    color: red;
+  }
+  
+  .total {
+    width: 300px;
+    margin: 50px auto;
+    text-align: right;
+    border-top: 1px solid #ccc; /* Add a top border */
+    padding-top: 10px; /* Add some padding for spacing */
+  }
+  
+  .total-price {
+    border: 1px solid #ccc; /* Add a border to the total price */
+    padding: 5px 10px; /* Add padding for spacing within the bordered area */
+    display: inline-block; /* Display as an inline-block element to fit within the border */
+  }
